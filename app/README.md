@@ -1,5 +1,7 @@
 # The Wine Barn POS
 
+Repo: https://github.com/romuledn/winebarn
+
 A point-of-sale app for The Wine Barn — wine & champagne register plus an Academy booking screen — implemented from the design handoff in `../project/design_handoff_wine_barn_pos/design.md`.
 
 React + TypeScript + Vite, no backend: all data is static/in-memory, and product/class photos use a client-side drag-and-drop (or click-to-browse) upload that persists to `localStorage`.
