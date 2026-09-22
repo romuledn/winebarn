@@ -1,0 +1,94 @@
+:root {
+  /* Color tokens */
+  --ink: #1c1714;
+  --ink-deep: #22190e;
+  --text-secondary: #5c554e;
+  --text-muted: #6e665e;
+  --text-soft: #8a8279;
+  --text-faint: #9a9188;
+  --placeholder: #a79e93;
+
+  --champagne: #e4ce9a;
+  --champagne-hover: #dbc188;
+  --champagne-tint: #fbf3e3;
+  --champagne-wash: #fbf5e8;
+  --champagne-badge-bg: #f2e2bc;
+  --champagne-badge-text: #6b5524;
+  --champagne-badge-soft-bg: #f7efdc;
+  --champagne-badge-soft-text: #7a6128;
+
+  --gold-link: #8a6f33;
+  --gold-link-hover: #6b5524;
+
+  --surface: #ffffff;
+  --surface-sunken: #faf9f6;
+  --canvas: #f4f2ee;
+  --page: #edeae4;
+  --tile-bg: #f3eee2;
+  --tile-border: #eae3d4;
+
+  --border: #ece7de;
+  --border-soft: #f1ede6;
+  --border-soft-2: #f0ece4;
+
+  --status-warning-bg: #fbe7c2;
+  --status-warning-text: #8a6317;
+  --status-success-bg: #d5f0de;
+  --status-success-text: #1e6b3c;
+  --status-danger-bg: #fbdbd8;
+  --status-danger-text: #9b2b22;
+
+  --danger-text: #a8352a;
+  --danger-icon: #c0392b;
+  --danger-border: #f2d9d5;
+
+  --dot: #cfc7bb;
+
+  --font-ui: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100vh;
+}
+
+a {
+  color: var(--gold-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gold-link-hover);
+}
+
+button {
+  font-family: inherit;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #dfd8cb;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
